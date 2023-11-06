@@ -1,5 +1,5 @@
 const settings = {
-    staticContent: `C:\\Users\\Ruben\\Documents\\projects-practices\\daily-task-javascript\\public`,
+    staticContentPath: `C:\\Users\\Ruben\\Documents\\projects-practices\\daily-task-javascript\\public`,
     viewsPath: `C:\\Users\\Ruben\\Documents\\projects-practices\\daily-task-javascript\\src\\views`,
 }
 

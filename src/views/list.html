@@ -29,12 +29,12 @@
 
     <template class="table-row-component">
       <tr>
-        <td class="description-el"></td>
-        <td class="days-el"></td>
-        <td class="begins-el"></td>
-        <td class="ends-el"></td>
-        <td class="responsible-el"></td>
-        <td>
+        <td class="description-el" data-kind="text" data-name="description"></td>
+        <td class="days-el" data-kind="number" data-name="days"></td>
+        <td class="begins-el" data-kind="date" data-name="begins"></td>
+        <td class="ends-el" data-kind="date" data-name="ends"></td>
+        <td class="responsible-el" data-kind="number" data-name="responsible"></td>
+        <td data-kind="false">
             <button class="btn btn-info btn-update">Actualizar</button>
             <button class="btn btn-danger btn-delete">borrar</button>
         </td>
